@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menstrual Cycle Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Menstrual Cycle Calculator</h1>
+    <div class="calculator">
+        <label for="lastPeriodDate">Last Period Date:</label>
+        <input type="date" id="lastPeriodDate" required>
+        <label for="cycleLength">Average Cycle Length (in days):</label>
+        <input type="number" id="cycleLength" min="21" required>
+        <button onclick="calculateCycle()">Calculate</button>
+    </div>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
